@@ -1,0 +1,73 @@
+{
+  "description": "Input snapshots used for the reported analysis. A changed publisher file must not be silently substituted.",
+  "files": [
+    {
+      "path": "data/raw/GSE125583_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125583/suppl/GSE125583_RAW.tar",
+      "sha256": "f13f8b565230403684a9ff0658b38ac0dd49d682df949b5cd9fceb6a1d88e3ec",
+      "bytes": 91668480,
+      "module": "discovery"
+    },
+    {
+      "path": "data/raw/GSE125583_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125583/matrix/GSE125583_series_matrix.txt.gz",
+      "sha256": "6817baa614825e99e25c29ed501ae2da6ac74e7f89aeb43c902190dadb182667",
+      "bytes": 14446,
+      "module": "discovery"
+    },
+    {
+      "path": "data/external/GSE33000/GSE33000_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE33nnn/GSE33000/matrix/GSE33000_series_matrix.txt.gz",
+      "sha256": "d681f136a7bc91f20f63493d9fdf547cab6702b0527879bff67aff477d9167ed",
+      "bytes": 112099269,
+      "module": "external"
+    },
+    {
+      "path": "data/external/GSE33000/GPL4372.annot.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL4nnn/GPL4372/annot/GPL4372.annot.gz",
+      "sha256": "e015a894e17b99ed90dbaeb5edc1605cbd42f8430cbc7b4e820d81c7393ddb2e",
+      "bytes": 3431295,
+      "module": "external"
+    },
+    {
+      "path": "data/external/biological_evidence/NCBI2Reactome_All_Levels.txt",
+      "url": "https://reactome.org/download/current/NCBI2Reactome_All_Levels.txt",
+      "sha256": "53bbe42b357655e341630898547af8d23badab592e6050c34d4317fbffc04ce4",
+      "bytes": 98024930,
+      "module": "annotations",
+      "exact_snapshot_required": true
+    },
+    {
+      "path": "data/external/biological_evidence/ReactomePathways.txt",
+      "url": "https://reactome.org/download/current/ReactomePathways.txt",
+      "sha256": "f6d7a2bf89b5bcfe0250a0bc7f51bff94641447911712b8ff129f5b55e52df3a",
+      "bytes": 1592393,
+      "module": "annotations",
+      "exact_snapshot_required": true
+    },
+    {
+      "path": "data/external/biological_evidence/reactome.homo_sapiens.interactions.tab-delimited.txt",
+      "url": "https://reactome.org/download/current/interactors/reactome.homo_sapiens.interactions.tab-delimited.txt",
+      "sha256": "a5ed8376d7da82b0dbfc6f0d243b422b2635482025b74e434d3b9be48cb55e5d",
+      "bytes": 58321674,
+      "module": "annotations",
+      "exact_snapshot_required": true
+    },
+    {
+      "path": "data/external/biological_evidence/rna_single_nuclei_cluster_type.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/rna_single_nuclei_cluster_type.tsv.zip",
+      "sha256": "a287c1abab593c9d6802349a82f118efc0d4aea411be7d897b8feb0b31b02f2a",
+      "bytes": 3745564,
+      "module": "annotations",
+      "exact_snapshot_required": true
+    },
+    {
+      "path": "data/external/biological_evidence/rna_single_nuclei_cluster_type_cluster_types.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/rna_single_nuclei_cluster_type_cluster_types.tsv.zip",
+      "sha256": "05d247bcb8f230aa4b09c23eb5fdc964444a175f06e73efac2a7c17ec6ac564c",
+      "bytes": 706,
+      "module": "annotations",
+      "exact_snapshot_required": true
+    }
+  ]
+}

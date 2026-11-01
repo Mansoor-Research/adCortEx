@@ -1,0 +1,12 @@
+{
+  "models": {
+    "CC0": "~ sex + diagnosis",
+    "CC_age": "~ sex + age_centered + diagnosis",
+    "CC_age_M3": "~ sex + age_centered + neu + mic + diagnosis"
+  },
+  "q_threshold": 0.05,
+  "expected_complete_AD": 218,
+  "expected_complete_control": 70,
+  "expected_genes": 19108,
+  "expected_fixed_genes": 118
+}

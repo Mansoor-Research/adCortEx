@@ -1,0 +1,17 @@
+{
+  "repository": "mathyslab7/ROSMAP_snRNAseq_PFC",
+  "result_directory": "Results/Differential_gene_expression_analysis/gpath",
+  "endpoint": "gpath",
+  "expected_populations": 56,
+  "expected_fixed_genes": 118,
+  "pair_bh_q": 0.05,
+  "pair_bonferroni_p": 0.05,
+  "composition_model": "M3_neu_mic",
+  "composition_q": 0.05,
+  "source_pvalue": "p_val",
+  "source_effect": "logFC",
+  "source_gene": "gene",
+  "source_local_adjustment": "p_adj.loc",
+  "source_global_adjustment": "p_adj.glb",
+  "commit": "28388f829be6affa1578e56fa09c4be8cd273817"
+}
