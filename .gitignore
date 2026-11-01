@@ -1,0 +1,15 @@
+# Public repository contents are code, configuration and dependency records.
+/data/
+/results/
+/env/
+/renv/
+/.venv/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Renviron
+.env
+*.log
+.DS_Store
+Thumbs.db
